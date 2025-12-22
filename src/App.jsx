@@ -3,7 +3,7 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Resume Analyzerfsdf",
+    title: "Resume Analyzer",
     description:
       "Upload resume, get ATS Role-based analysis, score, suggestions and dashboard.",
     tech: ["React", "Node", "MongoDB"],
