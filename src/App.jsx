@@ -27,7 +27,7 @@ const projects = [
     ],
     live: "https://opel-fragrance.vercel.app/",
     github: "https://github.com/UmarShah-00/opel-fragrance.git",
-    image: "https://images.unsplash.com/photo-1523293182086-7651a899d37f",
+    image: "perfume.png",
   },
 ];
 
