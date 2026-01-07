@@ -3,6 +3,24 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Opel Fragrance",
+    description:
+      "Opel Fragrance is a luxury perfume e-commerce website showcasing premium scents with elegant UI, secure backend, and seamless shopping experience.",
+    tech: [
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Stripe",
+      "Tailwind CSS",
+    ],
+    live: "https://opel-fragrance.vercel.app/",
+    github: "https://github.com/UmarShah-00/opel-fragrance.git",
+    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f",
+  },
+  {
     title: "Voice App (Text to Speech)",
     description:
       "A modern Text-to-Speech web application with English & Urdu support, Google OAuth authentication, protected routes, and text export features (TXT, PDF, DOCX). Built with full MERN stack and deployed on Railway & Vercel.",
@@ -30,24 +48,6 @@ const projects = [
     live: "https://ai-resume-analyzer-frontend-ten.vercel.app/",
     github: "https://github.com/UmarShah-00/ai-resume-analyzer-frontend.git",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
-  },
-  {
-    title: "Opel Fragrance",
-    description:
-      "Opel Fragrance is a luxury perfume e-commerce website showcasing premium scents with elegant UI, secure backend, and seamless shopping experience.",
-    tech: [
-      "React",
-      "Redux",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JWT",
-      "Stripe",
-      "Tailwind CSS",
-    ],
-    live: "https://opel-fragrance.vercel.app/",
-    github: "https://github.com/UmarShah-00/opel-fragrance.git",
-    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f",
   },
 ];
 
