@@ -3,6 +3,26 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Voice App (Text to Speech)",
+    description:
+      "A modern Text-to-Speech web application with English & Urdu support, Google OAuth authentication, protected routes, and text export features (TXT, PDF, DOCX). Built with full MERN stack and deployed on Railway & Vercel.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Google OAuth",
+      "JWT",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    live: "https://voice-app-frontend.vercel.app",
+    github: "https://github.com/UmarShah-00/voice-app-frontend.git",
+    image: "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+  },
+  {
     title: "Resume Analyzer",
     description:
       "Upload resume, get ATS role-based analysis, score, smart suggestions, and a detailed dashboard.",
@@ -28,7 +48,6 @@ const projects = [
     live: "https://opel-fragrance.vercel.app/",
     github: "https://github.com/UmarShah-00/opel-fragrance.git",
     image: "https://images.unsplash.com/photo-1594035910387-fea47794261f",
-
   },
 ];
 
