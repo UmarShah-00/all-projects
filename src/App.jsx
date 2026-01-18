@@ -49,6 +49,16 @@ const projects = [
     github: "https://github.com/UmarShah-00/ai-resume-analyzer-frontend.git",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
   },
+  // ✅ Movie App Project Added
+  {
+    title: "CineVerse Movie App",
+    description:
+      "A Next.js movie app using TMDB API. Browse Hollywood, Bollywood & Punjabi movies with trailers, ratings, and search functionality. Full responsive UI for web and mobile.",
+    tech: ["Next.js", "TypeScript", "TMDB API", "React", "CSS Modules", "Framer Motion"],
+    live: "https://movie-app-olive-beta.vercel.app",
+    github: "https://github.com/UmarShah-00/movie-app.git",
+    image: "/heros.webp", // Hero image from your project
+  },
 ];
 
 export default function ProjectShowcase() {
@@ -95,9 +105,7 @@ export default function ProjectShowcase() {
               {/* CONTENT */}
               <div className="p-8 flex flex-col justify-between">
                 <div>
-                  <h2 className="text-2xl font-semibold mb-3">
-                    {project.title}
-                  </h2>
+                  <h2 className="text-2xl font-semibold mb-3">{project.title}</h2>
 
                   <p className="text-gray-400 mb-5 leading-relaxed">
                     {project.description}
