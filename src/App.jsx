@@ -57,7 +57,7 @@ const projects = [
     tech: ["Next.js", "TypeScript", "TMDB API", "React", "CSS Modules", "Framer Motion"],
     live: "https://movie-app-olive-beta.vercel.app",
     github: "https://github.com/UmarShah-00/movie-app.git",
-    image: "/heros.webp", // Hero image from your project
+    image: "/hero.webp", // Hero image from your project
   },
 ];
 
