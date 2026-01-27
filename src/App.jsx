@@ -143,7 +143,11 @@ export default function ProjectShowcase() {
                   >
                     Code <Github size={18} />
                   </a>
+                <span className="inline-block mb-3 text-xs px-3 py-1 rounded-full bg-red-900/10 text-red-400">
+  Backend inactive (Free tier expired)
+</span>
                 </div>
+
               </div>
             </motion.div>
           ))}
